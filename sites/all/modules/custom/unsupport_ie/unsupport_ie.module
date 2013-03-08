@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Unsupport IE feature.
+ */
+
+include_once 'unsupport_ie.features.inc';

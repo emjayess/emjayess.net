@@ -1,0 +1,13 @@
+name = Unsupport IE
+description = It's my site, and I'll screw IE users all I want to
+core = 7.x
+package = Prerogative
+version = 7.x-1.0
+project = unsupport_ie
+dependencies[] = chrome_frame
+dependencies[] = ctools
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:1
+features[variable][] = chrome_frame_mode
+features[variable][] = chrome_frame_prompt
